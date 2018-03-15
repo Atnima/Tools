@@ -1,0 +1,52 @@
+<![LOG[---- Logging started 12/03/2018 3:21:06 PM ----]LOG]!><time="15:21:6.226+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Running action "Full health check with fixes" on computers...]LOG]!><time="15:21:6.226+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[* Processing CPQ12-S013.CLIENTS.SVHNATIONAL.ORG.AU...]LOG]!><time="15:21:6.398+600" date="03-12-2018" component="InitiateRemoteConnection" context="" type="1" thread="" file="">
+<![LOG[ !! CPQ12-S013.CLIENTS.SVHNATIONAL.ORG.AU not responding to ping.]LOG]!><time="15:21:6.460+600" date="03-12-2018" component="pingClient" context="" type="3" thread="" file="">
+<![LOG[----------------------------------------]LOG]!><time="15:21:6.468+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Action completed in 0 minute(s) and 0 second(s).]LOG]!><time="15:21:6.468+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total computers in the list: 1]LOG]!><time="15:21:6.468+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total online/offline: 0 / 1]LOG]!><time="15:21:6.472+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total healthy/not healthy: 0 / 0]LOG]!><time="15:21:6.480+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total failed: 1]LOG]!><time="15:21:6.480+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[---- Logging finished 12/03/2018 3:21:06 PM ----]LOG]!><time="15:21:6.484+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[]LOG]!><time="15:21:6.484+600" date="03-12-2018" component="" context="" type="1" thread="" file="">
+<![LOG[---- Logging started 12/03/2018 3:21:16 PM ----]LOG]!><time="15:21:16.839+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Running action "Full health check with fixes" on computers...]LOG]!><time="15:21:16.839+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[* Processing CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU...]LOG]!><time="15:21:17.7+600" date="03-12-2018" component="InitiateRemoteConnection" context="" type="1" thread="" file="">
+<![LOG[ Running full health check with fixes on CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU...]LOG]!><time="15:21:17.125+600" date="03-12-2018" component="fixHealth" context="" type="1" thread="" file="">
+<![LOG[  >> Checking services...]LOG]!><time="15:21:19.871+600" date="03-12-2018" component="checkServices" context="" type="1" thread="" file="">
+<![LOG[   ** Required services are running.]LOG]!><time="15:21:20.78+600" date="03-12-2018" component="checkServices" context="" type="1" thread="" file="">
+<![LOG[  >> Checking admin$ share...]LOG]!><time="15:21:20.82+600" date="03-12-2018" component="checkAdminShare" context="" type="1" thread="" file="">
+<![LOG[   ** Admin$ share is healthy on CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU!]LOG]!><time="15:21:20.148+600" date="03-12-2018" component="checkAdminShare" context="" type="1" thread="" file="">
+<![LOG[  >> Checking assigned site...]LOG]!><time="15:21:20.156+600" date="03-12-2018" component="checkAssignedSite" context="" type="1" thread="" file="">
+<![LOG[   ** CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU is assigned to SVH.]LOG]!><time="15:21:20.460+600" date="03-12-2018" component="checkAssignedSite" context="" type="1" thread="" file="">
+<![LOG[  >> Checking registry...]LOG]!><time="15:21:20.496+600" date="03-12-2018" component="checkRegistry" context="" type="1" thread="" file="">
+<![LOG[   ** DCOM is enabled.]LOG]!><time="15:21:20.593+600" date="03-12-2018" component="checkRegistry" context="" type="1" thread="" file="">
+<![LOG[  >> Checking inventory...]LOG]!><time="15:21:20.597+600" date="03-12-2018" component="checkInventory" context="" type="1" thread="" file="">
+<![LOG[   ** Last hardware scan was 3 days ago on 9/03/2018 9:09:30 AM. Healthy.]LOG]!><time="15:21:21.113+600" date="03-12-2018" component="checkInventory" context="" type="1" thread="" file="">
+<![LOG[   ** Last software scan was 3 days ago on 9/03/2018 8:49:06 AM. Healthy.]LOG]!><time="15:21:21.312+600" date="03-12-2018" component="checkInventory" context="" type="1" thread="" file="">
+<![LOG[  >> Checking version...]LOG]!><time="15:21:21.398+600" date="03-12-2018" component="checkClientVersion" context="" type="1" thread="" file="">
+<![LOG[   !! Client version ("5.00.8498.1008") is older than expected on CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU!]LOG]!><time="15:21:21.855+600" date="03-12-2018" component="checkClientVersion" context="" type="2" thread="" file="">
+<![LOG[  !! RESULT: Not healthy]LOG]!><time="15:21:21.855+600" date="03-12-2018" component="fixHealth" context="" type="2" thread="" file="">
+<![LOG[----------------------------------------]LOG]!><time="15:21:21.859+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Action completed in 0 minute(s) and 5 second(s).]LOG]!><time="15:21:21.867+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total computers in the list: 1]LOG]!><time="15:21:21.886+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total online/offline: 1 / 0]LOG]!><time="15:21:21.898+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total healthy/not healthy: 0 / 1]LOG]!><time="15:21:21.902+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total failed: 0]LOG]!><time="15:21:21.902+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[---- Logging finished 12/03/2018 3:21:21 PM ----]LOG]!><time="15:21:21.906+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[]LOG]!><time="15:21:21.906+600" date="03-12-2018" component="" context="" type="1" thread="" file="">
+<![LOG[---- Logging started 12/03/2018 3:21:38 PM ----]LOG]!><time="15:21:38.320+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Running action "Check & Fix client version" on computers...]LOG]!><time="15:21:38.320+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[* Processing CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU...]LOG]!><time="15:21:38.492+600" date="03-12-2018" component="InitiateRemoteConnection" context="" type="1" thread="" file="">
+<![LOG[ Checking & fixing client version on CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU...]LOG]!><time="15:21:38.664+600" date="03-12-2018" component="fixClientVersion" context="" type="1" thread="" file="">
+<![LOG[  >> Checking version...]LOG]!><time="15:21:39.406+600" date="03-12-2018" component="checkClientVersion" context="" type="1" thread="" file="">
+<![LOG[   !! Client version ("5.00.8498.1008") is older than expected on CPQ12-S013.CLIENTS.SVHANATIONAL.ORG.AU!]LOG]!><time="15:21:39.812+600" date="03-12-2018" component="checkClientVersion" context="" type="2" thread="" file="">
+<![LOG[----------------------------------------]LOG]!><time="15:21:39.812+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Action completed in 0 minute(s) and 1 second(s).]LOG]!><time="15:21:39.824+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total computers in the list: 1]LOG]!><time="15:21:39.828+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total online/offline: 1 / 0]LOG]!><time="15:21:39.839+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total healthy/not healthy: 0 / 1]LOG]!><time="15:21:39.859+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[Total failed: 0]LOG]!><time="15:21:39.875+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[---- Logging finished 12/03/2018 3:21:39 PM ----]LOG]!><time="15:21:39.878+600" date="03-12-2018" component="COMMON" context="" type="1" thread="" file="">
+<![LOG[]LOG]!><time="15:21:39.882+600" date="03-12-2018" component="" context="" type="1" thread="" file="">
